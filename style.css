@@ -1,0 +1,243 @@
+/* General Reset */    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Navbar */                                      
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: lab(97.23% 0.01 -0.01);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .navbar .newarr{
+    color: rgb(254, 121, 121);
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('images/backgd.jpg') no-repeat center center/cover;
+    padding-top: 120px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px 20px 200px;
+    height: 600px;
+  }
+  
+  .hero div {
+    margin-top: 350px;
+    color: #fbfcfcb0;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Layout */
+  .main-container {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    position: sticky;
+    top: 80px;
+    padding: 20px;
+    background: #f9f9f9;
+    height: fit-content;
+    /* border-right: 1px solid #ddd; */
+
+    
+      /* width: 100%; */
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      /* position: relative; */
+      /* top: auto; */
+    
+  }
+  
+  .main-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .category {
+    margin-bottom: 40px;
+  }
+  
+  .category h2 {
+    margin-bottom: 20px;
+    margin-left: 400px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #f4f3f3a9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .card .brief {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .card .description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card .price {
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 1.1rem;
+  }
+  
+  /* Highlight Section */
+  .highlight-content {
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .highlight-content div{
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+  .highlight-content div p{
+    font-style: italic;
+    padding-top: 20px;
+  }
+  .highlight-content img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  /* Info Banner */
+  .info-banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #eaeaea;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  /* Footer */
+  footer {
+    background: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  footer div {
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    padding-bottom: 10px;
+  }
+  .about{
+    width: 900px;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .main-container {
+      flex-direction: column;
+    }
+  
+    
+  
+    .highlight-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .info-banner {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .card-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+.price-size{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}  
+  

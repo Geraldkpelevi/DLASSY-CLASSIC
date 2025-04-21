@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DLASI STORE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="logo">DLASI STORE</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#categories"><label for="categories">categories </label>
+      <select id="#categories" name="categories" onchange="scrollToSection(this.value)">
+        <a href="#women"><option value="women">women</option></a>
+        <a href="#sneakers"><option value="sneakers">sneakers</option></a>
+
+        <a href="#men"><option value="men">men</option></a>
+        <a href="#kids"><option value="kids">kids</option></a>
+      </select>
+    </a>
+
+      </select>      <a class="newarr" href="#new-arrivals">New Arrivals</a>
+      <ion-icon name="bag-handle-outline"></ion-icon>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+        <h1>YOUTH CULTURE. DLASI DRIP</h1>
+    <p>Explore the latest fashion trends with us</p>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Contact</h3>
+      <p>Email: contact@dlasistore.com</p>
+      <p><ion-icon name="call-outline"></ion-icon>: +233 53 754 3632</p>
+      <p><ion-icon name="logo-whatsapp"></ion-icon>: +86 186 0524 7628</p>
+      <h3>Location</h3>
+      <p>123 Fashion Ave, Style City</p>
+      <h3>Map</h3>
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </aside>
+
+    <!-- Main Section -->
+    <main class="main-section">
+      <!-- Category 1: Product Cards -->
+      <section id="women" class="category">
+        <h2>Popular Products</h2>
+        <div class="card-grid">
+          <!-- Repeat this card 10 times -->
+          <div class="card">
+            <img src="images/27405a9653c3ec647b5584816c1470ae.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/blackdress.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>
+            
+          </div>
+
+          <div class="card">
+            <img src="images/7579633e00f6959979757180cf20a3ed.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/762feb9e05d5bc69b2b526c47fd57896.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/853c760f90232b9fc83eb82eceb9269c.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/fcef29809a2762e9d06ae3e5a4c01d87.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/330a54492e4c26d18fc0336ed8549055.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+            <div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/c42f6f2c4c89ef683c7a37e2e76e2e11.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+<div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/ef8328e2736f38032ac761d43aae7622.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+<div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/64c7b289ecdafe3d7afc4a6ede5ef6f6.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+<div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/92839e5ef6d3caf139777cd78d7a31eb.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+<div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <div class="card">
+            <img src="images/87fe87af2dfb64c65a70fc18cc14f2f2.png" alt="Product" />
+            <p class="brief">Nice Shirt</p>
+            <p class="description">A stylish cotton shirt for everyday wear.</p>
+<div class="price-size">
+              <p class="price">ghc:250</p>
+              <!-- <label for="size">size</label> -->
+              <select name="" id="">
+                <option value="">Size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+                <option value="">XXXL</option>
+              </select>
+            </div>          </div>
+          <!-- Repeat as needed -->
+        </div>
+      </section>
+
+      <!-- Category 2: Image + Description -->
+      <section class="category highlight">
+        <div class="highlight-content">
+          <div>
+            <h3>Featured Collection</h3>
+            <p>Discover our latest designer picks with a modern twist.</p>
+            <p>Heavyweight, oversized, and built to flex. Whether you’re in the studio or on the street, this hoodie reps your energy loud and clear. Bold branding, soft interior — all attitude.</p>
+          </div>
+          <img src="images/lady.jpg" alt="Featured" />
+        </div>
+      </section>
+
+      <!-- Category 3: New Arrivals -->
+      <section  class="category">
+        <h2 id="sneakers">New Arrivals</h2>
+        <div class="card-grid">
+          <!-- Repeat this card 10 times -->
+          <div class="card">
+            <img src="images/d1a2620743f81fde9ef8442ae90f65e1.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/185c0eb6ee7683f3329edf87f2dfe8de.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/56ad33ba4fa2f3de899b9c0a653805a9.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/047d02f5867e7a948d46da51567d8566.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/085d296dcd6dc2589069388911a25a03.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/6d0501941273b8d3582b1211ca4da39d.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/27687e6172e08618b5207e727a8a0d2b.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/d08303354546c1d1eb94425d6ad5dbbf.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/ee7c3cdd9cd5b5088a952f29d3799c8b.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/6d9794131e95210b0f3d20ed67bafa77.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/0cb197d037b528411a4938c4186e06cc.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <div class="card">
+            <img src="images/6c6df19a55822829308b37229f008df2.png" alt="New Product" />
+            <p class="brief">Fresh Look</p>
+            <p class="description">New trendy fashion wear just arrived!</p>
+            <p class="price">$34.99</p>
+          </div>
+          <!-- Repeat as needed -->
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Info Banner -->
+  <section class="info-banner">
+    <p>Fast Delivery (<ion-icon name="cart-outline"></ion-icon>)</p>
+    <p>Return Guarantee (<ion-icon name="car-sport-outline"><i class="fa-solid fa-truck"></i></ion-icon>)</p>
+    <p>Momo Available <br>(<ion-icon name="logo-usd"></ion-icon>)</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <h3 id="contact">Contact Us</h3>
+      <p>Email: contact@dlasistore.com</p>
+      <p>Phone: +123 456 7890</p>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-tiktok"></ion-icon>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-snapchat"></ion-icon>
+    </div>
+    
+    <div class="about">
+      <h3 id="about">About</h3>
+      <p>DLASI is a clothing company dedicated to offering top quality fashion for all.</p>
+      <p>
+        Dlasi isn’t just a clothing brand — it’s a movement born from youth culture, street energy, and unapologetic self-expression.
+
+We design for the bold. The loud. The ones who don’t just follow trends — they set them. Every drop is crafted to reflect the vibe of the streets, the pulse of the youth, and the power of individuality.
+
+From statement tees to heavyweight hoodies and functional fits — Dlasi delivers fashion that moves how you move, speaks how you speak, and lives how you live.
+
+We’re not here to blend in.
+We’re here to build a wave.
+Welcome to Dlasi.
+Wear the energy.
+      </p>
+      
+    </div>
+    <div>
+      <p>&copy; 2025 DLASI STORE. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    function scrollToSection(id) {
+      if (id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    function toggleMenu() {
+    const nav = document.querySelector('.navbar nav');
+    nav.classList.toggle('active');
+  }
+  </script>
+</body>
+</html>
